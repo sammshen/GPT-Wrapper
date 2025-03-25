@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>All Input Types Form</title>
+</head>
+
+<body>
+    <h1>Form with Every Input Type</h1>
+
+    <form action="https://httpbin.org/post" method="POST" enctype="multipart/form-data">
+        <!-- Text -->
+        <label for="text">Text:</label>
+        <input type="text" id="text" name="text"><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Number -->
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" min="0" max="10"><br><br>
+
+        <!-- Date -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <!-- Time -->
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time"><br><br>
+
+        <!-- Checkbox -->
+        <label for="subscribe">Subscribe:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+
+        <!-- Radio -->
+        Gender:<br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Color -->
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <!-- Range -->
+        <label for="range">Skill Level:</label>
+        <input type="range" id="range" name="range" min="1" max="10"><br><br>
+
+        <!-- URL -->
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website"><br><br>
+
+        <!-- Tel -->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <!-- Search -->
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search"><br><br>
+
+        <!-- File -->
+        <label for="file">Upload a File:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <!-- Hidden -->
+        <input type="hidden" name="form_id" value="demo_form_123">
+
+        <!-- Select -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="us">United States</option>
+            <option value="ca">Canada</option>
+            <option value="uk">United Kingdom</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+        <!-- Input Submit -->
+        <input type="submit" value="Submit with Input"><br><br>
+
+        <!-- Button Submit -->
+        <button type="submit">Submit with Button</button>
+    </form>
+</body>
+
+</html>

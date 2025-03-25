@@ -1,0 +1,4 @@
+# ignore environment variable files so API keys don't get leaked
+.env
+__pycache__/
+*.pyc

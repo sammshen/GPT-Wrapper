@@ -5,7 +5,7 @@ async function sendMessage() {
     responseArea.innerText = "Waiting for response...";
 
     try {
-        const res = await fetch("http://143.110.156.171:8001/chat", {
+        const res = await fetch("http://<YOUR IP>/chat", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ message: userInput })

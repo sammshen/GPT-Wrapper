@@ -1,6 +1,6 @@
 ***Front-End Configuration***
 
-Make sure to change the port in the `fetch` call in `script.js` to the correct port of your backend.
+Make sure to change the IP/port in the `fetch` call in `script.js` to the correct IP/port of your backend.
 
 nginx configuration on a Linux Server
 

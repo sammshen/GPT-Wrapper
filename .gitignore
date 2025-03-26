@@ -2,3 +2,5 @@
 .env
 __pycache__/
 *.pyc
+back_venv/
+nohup.out
